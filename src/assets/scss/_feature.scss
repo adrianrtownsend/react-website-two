@@ -1,0 +1,30 @@
+.feature {
+  
+  .container {
+
+    @include breakpoint-up(large) {
+      display: flex;
+    }
+  }
+
+  &__text {
+
+    padding: 2.5rem;
+ 
+    @include breakpoint-up(large) {
+      padding: 1.5rem 4rem;
+    }
+    
+    h3 {
+      letter-spacing: 0.25rem;
+    }
+  }
+
+  &__image {
+    img {
+      @include breakpoint-down(medium) {
+        width: 100%;
+      }
+    }
+  }
+}

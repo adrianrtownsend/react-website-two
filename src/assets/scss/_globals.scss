@@ -1,0 +1,93 @@
+/*
+* - Mobile: 375px
+- Desktop: 1440px
+
+*
+*/
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  margin: auto;
+  font-family: 'Spartan', sans-serif;
+  font-weight: 500;
+  color: $darkGray;
+  overflow-x: hidden;
+  font-size: $font-normal;
+  &.noscroll {
+    overflow: hidden;
+  }
+}
+
+// Text
+h1, h2, h3 {
+  font-weight: 700;
+  color: $black;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+p {
+  line-height: 1.2rem;
+}
+
+a, a:visited, a:hover {
+  text-decoration: none;
+}
+
+// Spacing
+.container {
+  max-width: 90rem;
+  margin: 0 auto;
+}
+
+// Flexbox
+.flex {
+  display: flex;
+
+  &-jc-sb {
+    justify-content: space-between;
+  }
+  
+  &-jc-c {
+    justify-content: center;
+  }
+  
+  &-ai-c {
+    align-items: center;
+  }
+
+  &-ai-s {
+    align-items: stretch;
+  }
+}
+
+// Buttons
+button, .button {
+
+}
+
+// Visibility
+.hide-for-mobile {
+  @include breakpoint-down(medium){
+    display: none;
+  }
+}
+
+.hide-for-desktop {
+  @include breakpoint-up(large){
+    display: none;
+  }
+}

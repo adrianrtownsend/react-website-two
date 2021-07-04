@@ -1,0 +1,88 @@
+.hero {
+
+  .container {
+
+    @include breakpoint-up(large) {
+      display: flex;
+    }
+  }
+
+  &__image {
+    position: relative;
+    display: flex;
+    align-items: stretch;
+    @include breakpoint-down(medium) {
+      flex-direction: column;
+    }
+  }
+
+  &__description {
+    padding: 2.5rem;
+ 
+    @include breakpoint-up(large) {
+      padding: 1.5rem 4rem;
+    }
+    position: relative;
+
+    a {
+      letter-spacing: 0.5rem;
+      > img {
+        margin-left: 2rem;
+      }
+
+      &:visited {
+        color: $black;
+      }
+    }
+  }
+
+  &__text {
+    margin-bottom: 2rem;
+
+    @include breakpoint-down(medium) {
+      h1 {
+        font-size: 1.25rem;
+      }
+      p {
+        font-size: .625rem;
+      }
+    }
+  }
+
+
+  &__controls {
+    position: absolute;
+    bottom: 0;
+
+    div {
+      padding: 1rem;
+      background-color: $black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+
+      &:hover {
+        background-color: $veryDarkGray;
+        transition: 300ms ease-in-out;
+      }
+    }
+  }
+
+  .controls_left {
+    left: 0;
+    div {
+      width: 5rem; 
+      height: 5rem;
+    }
+  }
+
+  .controls_right {
+    right: 0;
+    div {
+      width: 3rem; 
+      height: 3rem;
+    }
+  }
+
+}
