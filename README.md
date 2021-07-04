@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 This project is a React Framework conversion for Frontend Mentor's Room homepage challenge
 
-![Landing Page Screenshot](https://github.com/adrianrtownsend/react-website-one/blob/main/src/assets/images/landing-page-screenshot.png?raw=true)
+![Landing Page Screenshot](https://github.com/adrianrtownsend/react-website-two/blob/main/src/assets/images/landing-page-screenshot.png?raw=true)
 
 Link for original code challenge [here](https://www.frontendmentor.io/challenges/room-homepage-BtdBY_ENq/hub/room-homepage-0lOr0uduz)
 
