@@ -62,7 +62,7 @@ const Hero = () => {
             <h1>{slides[slide].title}</h1>
             <p>{slides[slide].description}</p>
           </div>
-          <a herf="/">
+          <a href="/">
             SHOP NOW
             <img src={iconArrow} alt="icon arrow" />
           </a>
