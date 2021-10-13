@@ -46,7 +46,7 @@ export default function Header() {
       <div className="overlay has-fade"/>
       <div className="overlay_block has-fade" />
       <nav>
-        {/*<a id="btnHamburger" onClick={btnHamburgerClick} href="#" className="header__toggle hide-for-desktop">
+        {/*<a id="btnHamburger" onClick={btnHamburgerClick} herf="/" className="header__toggle hide-for-desktop">
           <span/>
           <span/>
           <span/>
@@ -60,19 +60,19 @@ export default function Header() {
        
 
         <div className="header__menu has-fade hide-for-desktop">
-          <a href="#">home</a>
-          <a href="#">shop</a>
-          <a href="#">about</a>
-          <a href="#">contact</a>
+          <a herf="/">home</a>
+          <a herf="/">shop</a>
+          <a herf="/">about</a>
+          <a herf="/">contact</a>
         </div>
 
 
 
         <div className="header__links hide-for-mobile">
-          <a href="#">home</a>
-          <a href="#">shop</a>
-          <a href="#">about</a>
-          <a href="#">contact</a>
+          <a herf="/">home</a>
+          <a herf="/">shop</a>
+          <a herf="/">about</a>
+          <a herf="/">contact</a>
         </div>
       </nav>
     </header>
