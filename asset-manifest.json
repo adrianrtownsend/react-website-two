@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/react-website-two/static/css/main.15f6361d.chunk.css",
+    "main.js": "/react-website-two/static/js/main.3a20a0d5.chunk.js",
+    "main.js.map": "/react-website-two/static/js/main.3a20a0d5.chunk.js.map",
+    "runtime-main.js": "/react-website-two/static/js/runtime-main.5a505e14.js",
+    "runtime-main.js.map": "/react-website-two/static/js/runtime-main.5a505e14.js.map",
+    "static/js/2.bf6d90e1.chunk.js": "/react-website-two/static/js/2.bf6d90e1.chunk.js",
+    "static/js/2.bf6d90e1.chunk.js.map": "/react-website-two/static/js/2.bf6d90e1.chunk.js.map",
+    "static/js/3.02c293af.chunk.js": "/react-website-two/static/js/3.02c293af.chunk.js",
+    "static/js/3.02c293af.chunk.js.map": "/react-website-two/static/js/3.02c293af.chunk.js.map",
+    "index.html": "/react-website-two/index.html",
+    "static/css/main.15f6361d.chunk.css.map": "/react-website-two/static/css/main.15f6361d.chunk.css.map",
+    "static/js/2.bf6d90e1.chunk.js.LICENSE.txt": "/react-website-two/static/js/2.bf6d90e1.chunk.js.LICENSE.txt",
+    "static/media/desktop-image-hero-1.91901d0d.jpg": "/react-website-two/static/media/desktop-image-hero-1.91901d0d.jpg",
+    "static/media/desktop-image-hero-2.9d354056.jpg": "/react-website-two/static/media/desktop-image-hero-2.9d354056.jpg",
+    "static/media/desktop-image-hero-3.05fd679a.jpg": "/react-website-two/static/media/desktop-image-hero-3.05fd679a.jpg",
+    "static/media/icon-angle-left.d53877df.svg": "/react-website-two/static/media/icon-angle-left.d53877df.svg",
+    "static/media/icon-angle-right.0ed3f81f.svg": "/react-website-two/static/media/icon-angle-right.0ed3f81f.svg",
+    "static/media/icon-arrow.84087786.svg": "/react-website-two/static/media/icon-arrow.84087786.svg",
+    "static/media/image-about-dark.329bbc44.jpg": "/react-website-two/static/media/image-about-dark.329bbc44.jpg",
+    "static/media/logo.8fad0542.svg": "/react-website-two/static/media/logo.8fad0542.svg",
+    "static/media/mobile-image-hero-1.5de3d147.jpg": "/react-website-two/static/media/mobile-image-hero-1.5de3d147.jpg",
+    "static/media/mobile-image-hero-2.51db290a.jpg": "/react-website-two/static/media/mobile-image-hero-2.51db290a.jpg",
+    "static/media/mobile-image-hero-3.601d0f37.jpg": "/react-website-two/static/media/mobile-image-hero-3.601d0f37.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5a505e14.js",
+    "static/js/2.bf6d90e1.chunk.js",
+    "static/css/main.15f6361d.chunk.css",
+    "static/js/main.3a20a0d5.chunk.js"
+  ]
+}
